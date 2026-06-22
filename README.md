@@ -67,6 +67,18 @@ lib/
     utils/          # Shared utility helpers
 ```
 
+## Generated Files
+
+The repository keeps Flutter-generated artifacts out of version control. These are created locally as needed and ignored by git:
+
+- `.dart_tool/`
+- `build/`
+- `.flutter-plugins-dependencies`
+- `.flutter-plugins`
+- `android/local.properties`
+- `ios/Flutter/Generated.xcconfig`
+- `ios/Flutter/flutter_export_environment.sh`
+
 ## Getting Started
 
 ### Prerequisites
